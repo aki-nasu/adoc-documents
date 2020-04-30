@@ -1,8 +1,8 @@
 @echo off
 
 echo *******************************
-echo ローカルで確認するだけであれば、[document-confirm.bat]を実行してください。
-echo 間違えて実行した場合は、[Ctrl + c]で処理を中断してください。
+echo ���[�J���Ŋm�F���邾���ł���΁A[document-confirm.bat]�����s���Ă��������B
+echo �ԈႦ�Ď��s�����ꍇ�́A[Ctrl + c]�ŏ����𒆒f���Ă��������B
 echo *******************************
 
 pause
