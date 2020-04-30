@@ -1,0 +1,22 @@
+//
+// common/base.adoc
+//
+
+// meta
+:Revision: 1.5
+:docdatetime: 2020-10-07
+:copyright: aki-nasu 2030-2040
+:docinfo: shared
+
+// outside-service
+:outerServiceName: Qiita
+:outerServiceUrl: https://qiita.com/
+
+// tutorial
+:tutorialReleaseVersion: 1.0.0
+:tutorialReleaseDate: 2020/03/21
+
+:formalName: 俺のいきなりサービス
+:service: おいなりサービス
+
+:c-ex: ../../common/reference/example

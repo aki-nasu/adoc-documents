@@ -1,0 +1,18 @@
+:function: チュートリアル
+
+[[anchor-01]]
+== {function}
+
+チュートリアルで、APIの基本的な使い方をおさえてもらいます。
+
+=== HTMLを書ける
+
+++++
+<p>
+<input type="radio" name="hyouka" value="good" checked="checked">良い
+<input type="radio" name="hyouka" value="bad">悪い
+</p>
+<p>
+<input type="button" value="送信する">
+</p>
+++++

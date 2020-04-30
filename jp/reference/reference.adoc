@@ -1,0 +1,9 @@
+include::../../common/base.adoc.[]
+
+= {service}　APIリファレンス
+
+link:../index.html[トップページへ]
+
+== 1. link:function_name.html[API機能名１]
+
+include::../../common/pagetop.adoc.[]

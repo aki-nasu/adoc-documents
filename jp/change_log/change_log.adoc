@@ -1,0 +1,20 @@
+include::../../common/base.adoc.[]
+
+= {service}　変更履歴
+
+{service}に関する変更履歴です。
+
+link:../index.html[トップページへ]
+
+== 変更履歴
+
+[options="header" cols="10,20,35a,35a"]
+|====
+| Version | Date | Point| Description
+|0.0.1|2030年4月30日|link:../reference/reference.html#[APIリファレンス] |新規公開 +
+|||
+link:../tutorial/tutorial.html#[チュートリアル]
+|新規リリース
+|====
+
+include::../../common/pagetop.adoc.[]

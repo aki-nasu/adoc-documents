@@ -1,0 +1,63 @@
+include::../../common/base.adoc.[]
+
+== 1. API機能名１
+
+* APIリスト
+
+[format="csv" options="header" cols="1,5,4"]
+|====================
+No, API, Description
+1,link:function_name.html#_1_1_get_apiv2usersuser_iditems[GET /api/v2/users/:user_id/items],指定されたユーザの記事一覧を、作成日時の降順で返します
+|====================
+
+=== 1.1. GET /api/v2/users/:user_id/items
+
+==== Description
+
+指定されたユーザの記事一覧を、作成日時の降順で返します
+
+==== Request Header
+
+Host: apiexample.com
+
+==== Request Parameter
+
+==========================
+ GET /api/v2/users/:user_id/items?page=1&per_page=20
+==========================
+
+
+* クエリ検索に指定できるカラム
++
+[format="csv" options="header" cols="2,1,1,5"]
+|====
+Name , Type , Required , Description
+page, String, No, ページ番号 (1から100まで)。Pattern: `/^[0-9]+$/`
+|====
+
+==== Body
+
+なし
+
+==== Return Codes
+[format="csv" options="header" cols="1,9"]
+|====================
+Code,Description
+200, 正常終了
+500, 予期せぬエラー
+|====================
+
+==== Response Header
+
+Content-Type: application/json
+
+==== Response Parameter
+
+* レスポンス
+
+[source,json]
+----
+include::{c-ex}/GET-users_user_id_items-res.json.[]
+----
+
+include::../../common/pagetop.adoc.[]
