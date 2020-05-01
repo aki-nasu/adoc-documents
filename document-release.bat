@@ -9,7 +9,6 @@ pause
 
 rem defined
 SET REVNUM='revnumber=0.0.1'
-SET COPYLIGHT='2030-2040'
 
 SET LANG_MODE=jp
 SET EXEC_MODE=document-release
