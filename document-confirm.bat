@@ -2,7 +2,6 @@
 
 rem defined
 SET REVNUM='revnumber=0.0.1'
-SET COPYLIGHT='2030-2040'
 SET STYLE='stylesheet=..\..\css\asciidoctor-custom.css'
 
 SET LANG_MODE=jp
